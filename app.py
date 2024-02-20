@@ -1,6 +1,3 @@
-import sys
-print(sys.path)
-
 import os
 from decouple import config
 from flask import session, Flask , render_template, url_for, request, redirect, send_from_directory
