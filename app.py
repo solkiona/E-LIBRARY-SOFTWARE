@@ -209,4 +209,4 @@ def delete(book_id):
     return render_template('base.html')
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run()
